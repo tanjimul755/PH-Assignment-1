@@ -1,0 +1,334 @@
+
+/* MEDIA QUERIES */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .nav {
+        margin: 0 100px;
+    }
+    
+    .header div {
+        width: 700px;
+    }
+    
+    .main-heading {
+        font-size: 56px;
+    }
+    
+    .action-section {
+        margin: 100px;
+    }
+    
+    .users-section {
+        width: 90%;
+    }
+    
+    .user-reviews {
+        margin: 0 100px;
+    }
+    
+    .preview-container {
+        width: 90%;
+        padding: 60px;
+    }
+    
+    .preview-img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact-container {
+        width: 90%;
+    }
+    
+    .footer {
+        padding: 80px;
+    }
+}
+
+/* Specific fix for 1024px laptops */
+@media (max-width: 1024px) and (min-width: 992px) {
+    .user-reviews-section {
+        padding: 80px 0;
+    }
+    
+    .user-reviews {
+        margin: 0 50px;
+        gap: 30px;
+    }
+    
+    .review {
+        padding: 30px 20px;
+    }
+    
+    .review-text {
+        width: 100%;
+    }
+    
+    .user-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .user-image {
+        margin-bottom: 10px;
+    }
+}
+
+/* Additional adjustment for slightly smaller laptop screens */
+@media (max-width: 1100px) {
+    .user-reviews {
+        margin: 0 80px;
+    }
+    .action-section {
+        justify-content: center;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .nav {
+        margin: 0 50px;
+        padding: 30px 0;
+    }
+    
+    .header {
+        height: 600px;
+    }
+    
+    .header div {
+        width: 90%;
+    }
+    
+    .main-heading {
+        font-size: 48px;
+        margin: 100px 0 30px;
+    }
+    
+    .action-section {
+        flex-direction: column;
+        margin: 80px 50px;
+        text-align: center;
+    }
+    
+    .action-text {
+        width: 100%;
+        margin: 15px auto;
+    }
+    
+    .action-image {
+        margin-top: 40px;
+    }
+    
+    .user-activities {
+        gap: 80px;
+    }
+    
+    .activity h1 {
+        font-size: 60px;
+    }
+    
+    .user-reviews {
+        margin: 0 50px;
+        flex-wrap: wrap;
+    }
+    
+    .review {
+        margin-bottom: 30px;
+    }
+    
+    .preview-heading {
+        font-size: 42px;
+    }
+    
+    .contact-container {
+        flex-direction: column;
+        height: auto;
+        padding: 60px 0;
+    }
+    
+    .contact-heading {
+        width: 100%;
+        text-align: center;
+        font-size: 72px;
+        margin-bottom: 40px;
+    }
+    
+    .footer {
+        height: auto;
+        padding: 60px 40px;
+    }
+    
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .nav {
+        margin: 0 30px;
+    }
+    
+    .header {
+        height: 500px;
+    }
+    
+    .main-heading {
+        font-size: 36px;
+        margin: 80px 0 25px;
+    }
+    
+    .btn {
+        padding: 10px 30px;
+    }
+    
+    .action-section {
+        margin: 60px 30px;
+    }
+    
+    .action-heading,
+    .users-heading,
+    .user-reviews-heading {
+        font-size: 36px;
+    }
+    
+    .action-text {
+        font-size: 20px;
+    }
+    
+    .action-image {
+        width: 100%;
+        height: auto;
+    }
+    
+    .users-section {
+        padding: 40px;
+    }
+    
+    .user-activities {
+        gap: 40px;
+    }
+    
+    .activity h1 {
+        font-size: 50px;
+    }
+    
+    .activity p {
+        font-size: 16px;
+    }
+    
+    .user-reviews {
+        margin: 0 30px;
+    }
+    
+    .review-text {
+        width: 100%;
+    }
+    
+    .preview-heading {
+        font-size: 36px;
+    }
+    
+    .contact-heading {
+        font-size: 56px;
+    }
+    
+    .form-container {
+        width: 100%;
+    }
+    
+    .footer-logo {
+        font-size: 80px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .nav {
+        margin: 0 20px;
+        padding: 20px 0;
+    }
+    
+    .header {
+        height: 450px;
+    }
+    
+    .main-heading {
+        font-size: 28px;
+        margin: 60px 0 20px;
+    }
+    
+    .btn {
+        font-size: 14px;
+        padding: 8px 24px;
+    }
+    
+    .action-section {
+        margin: 40px 20px;
+    }
+    
+    .action-heading,
+    .users-heading,
+    .user-reviews-heading {
+        font-size: 28px;
+    }
+    
+    .action-text {
+        font-size: 16px;
+    }
+    
+    .users-section {
+        padding: 30px 20px;
+        height: auto;
+    }
+    
+    .user-activities {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .user-reviews {
+        margin: 0 20px;
+        flex-direction: column;
+    }
+    
+    .review {
+        width: 100%;
+    }
+    
+    .preview-container {
+        padding: 40px 20px;
+    }
+    
+    .preview-heading {
+        font-size: 28px;
+    }
+    
+    .preview-text {
+        font-size: 14px;
+    }
+    
+    .contact-heading {
+        font-size: 42px;
+    }
+    
+    .input-field {
+        padding: 15px 20px;
+    }
+    
+    .footer {
+        padding: 40px 20px;
+    }
+    
+    .footer-logo {
+        font-size: 60px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
