@@ -23,7 +23,7 @@ body, a, li {
     background-color: #f2d7ff;
     height: 698px;
     width: 100%;
-    background-image: url('/Assets/Hero-bg.png');
+    background-image: url('./Assets/Hero-bg.png');
     text-align: center;
 }
 
