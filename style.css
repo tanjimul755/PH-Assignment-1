@@ -12,8 +12,9 @@ body {
     font-style: normal;
     background-color: rgba(245, 248, 255, 1);
 }
-body, a {
+body, a, li {
     text-decoration: none;
+    list-style: none;
 }
 
 /* CSS for Header Section  */
@@ -51,6 +52,11 @@ body, a {
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+.btn:hover {
+    background-color: #efc512;
+    color: #252432;
+    transition: all 0.3s ease-in-out;
 }
 
 .header div {
@@ -294,10 +300,55 @@ body, a {
     padding: 20px 32px 20px 32px;
     border-radius: 10px;
     background-color: #FFFFFF;
-    border: none;
+    border: 1px solid rgba(214, 221, 237, 1);
     resize: none;
 }
 
 .form-container .btn {
     width: 100%;
+}
+
+/* CSS for Footer Section */
+
+.footer {
+    width: 100%;
+    height: 428px;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 104px 554px 104px 554px;
+}
+.form-container {
+    width: 530px;
+}
+
+.footer-logo {
+    font-family: "Inter";
+    font-size: 100px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+.footer-text {
+    
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
+    margin-top: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.footer-links a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(137, 135, 161, 1);
+}
+.footer-links a:hover {
+    color: #4E47FF;
 }
